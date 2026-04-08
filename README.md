@@ -8,8 +8,7 @@
 ![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?logo=prisma&logoColor=white)
 
 
-![ExcaliLive Landing Page](screenshots/landing-page.png)
-![ExcaliLive Board Page](screenshots/board-page.png)
+
 
 ExcaliLive is a premium, production-grade realtime collaborative whiteboard platform. It combines the flexibility of Excalidraw with a high-end SaaS aesthetic, featuring glassmorphic UI, professional typography, and robust security.
 
@@ -26,8 +25,7 @@ ExcaliLive is a premium, production-grade realtime collaborative whiteboard plat
 - **Durable Persistence**: Board states are persisted in PostgreSQL using Prisma ORM.
 
 ## 🛠 Tech Stack
-
-### Frontend
+add### Frontend
 - **Framework**: React 19 + Vite
 - **Styling**: Tailwind CSS + Custom Glassmorphism System
 - **Typography**: Inter (Google Fonts)
