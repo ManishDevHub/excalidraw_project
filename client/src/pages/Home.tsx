@@ -390,11 +390,11 @@ export function Home() {
               © 2026 EXCALIDRAW LIVE · BY {" "}
               <a
                 className="text-slate-900 hover:text-indigo-600 transition-colors dark:text-white dark:hover:text-indigo-400"
-                href="https://github.com/jeetupal31"
+                href="https://github.com/ManishDevHub"
                 rel="noreferrer"
                 target="_blank"
               >
-                @JEETUPAL31
+                @MANISHDEVHUB
               </a>
             </p>
           </div>
