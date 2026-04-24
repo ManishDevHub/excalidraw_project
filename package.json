@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "npm install --prefix server && npm install --prefix client",
     "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
-    "build": "npm run build --prefix server && npm run build --prefix client",
+    "build": "npm install && npx prisma generate && npm run build",
     "start": "npm run start --prefix server",
     "lint": "npm run lint --prefix client"
   },
@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "@prisma/client": "^7.4.2"
-  }
+  },
+  "engines": {
+  "node": "20.x"
+}
 }
